@@ -13,6 +13,7 @@ The diffculties I met:
    I know how to solve in backend and in VueJS frontend project(Vue.config.js), but I haven't solve the issue on production environment for this project.
    I tried jsonp solution but failed.
    Will build my own proxy to solve this issue.
+   publish branch to deploy on render.com
 Thank you.
 
    
