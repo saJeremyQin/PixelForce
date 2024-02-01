@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bba935cf.css",
+    "main.js": "/static/js/main.8597b48e.js",
+    "static/js/787.a23424d0.chunk.js": "/static/js/787.a23424d0.chunk.js",
+    "static/media/Wifi.svg": "/static/media/Wifi.abd67299e4fdd75b20b1bd416ec2a96c.svg",
+    "static/media/Mobile Signal.svg": "/static/media/Mobile Signal.f205f1608539fd617115f5f0e3bc053a.svg",
+    "static/media/Battery.svg": "/static/media/Battery.4edd4ae6d96afcc6f71e0e09079d2dc7.svg",
+    "index.html": "/index.html",
+    "main.bba935cf.css.map": "/static/css/main.bba935cf.css.map",
+    "main.8597b48e.js.map": "/static/js/main.8597b48e.js.map",
+    "787.a23424d0.chunk.js.map": "/static/js/787.a23424d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bba935cf.css",
+    "static/js/main.8597b48e.js"
+  ]
+}

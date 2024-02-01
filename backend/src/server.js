@@ -12,6 +12,10 @@ app.use(express.json());
 // app.get('/hello', (req, res) => {
 //     res.send('Hello World');
 // })
+app.use(express.static(
+  path.resolve(__dirname, '../build/'),
+  { maxAge:'1y', etag:false }
+))
 
 app.get('/api/trips', async (req, res) => {
   try {
@@ -25,6 +29,10 @@ app.get('/api/trips', async (req, res) => {
 
 // add other path here
 
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+})
 
 app.listen(port, () => {
     console.log(`Server is listening on Port ${port}`);
